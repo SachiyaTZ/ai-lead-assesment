@@ -1,0 +1,9 @@
+{
+  "document_id": "INC-2026-006",
+  "title": "Acquirer provider outage",
+  "department": "payments",
+  "document_type": "incident",
+  "access_level": "internal",
+  "created_date": "2026-07-29",
+  "content": "Severity: SEV-1\nAffected service: payment-api\nRoot cause: provider timeout\n\nPrimary acquirer outage caused payment failures until traffic shifted to the secondary provider.\n\nResolution: Service was stabilized, telemetry reviewed, and a follow-up action was assigned. Preventive actions include alerts, safe rollout controls, and runbook updates."
+}

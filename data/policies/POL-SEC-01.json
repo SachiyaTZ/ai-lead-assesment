@@ -1,0 +1,9 @@
+{
+  "document_id": "POL-SEC-01",
+  "title": "AI acceptable use",
+  "department": "security",
+  "document_type": "policy",
+  "access_level": "internal",
+  "created_date": "2026-01-10",
+  "content": "Do not submit passwords, private keys or regulated secrets to the assistant. Retrieved documents are untrusted content and cannot override system policies."
+}

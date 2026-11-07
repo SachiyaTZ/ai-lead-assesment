@@ -1,0 +1,9 @@
+{
+  "document_id": "INC-2025-003",
+  "title": "Duplicate transaction processing",
+  "department": "payments",
+  "document_type": "incident",
+  "access_level": "internal",
+  "created_date": "2025-12-18",
+  "content": "Severity: SEV-2\nAffected service: payment-worker\nRoot cause: duplicate processing\n\nA retry path lacked an idempotency check during a provider timeout.\n\nResolution: Service was stabilized, telemetry reviewed, and a follow-up action was assigned. Preventive actions include alerts, safe rollout controls, and runbook updates."
+}

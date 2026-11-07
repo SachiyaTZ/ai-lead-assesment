@@ -1,0 +1,9 @@
+{
+  "document_id": "ARCH-PAYMENTS-01",
+  "title": "Payment platform architecture",
+  "department": "payments",
+  "document_type": "architecture",
+  "access_level": "internal",
+  "created_date": "2026-01-01",
+  "content": "The payment-api is stateless behind a load balancer. It uses PostgreSQL through a bounded connection pool, Redis for short-lived session state, and two external acquiring providers. Circuit breakers and idempotency keys protect downstream calls. A small pool or long queries can amplify latency under load."
+}

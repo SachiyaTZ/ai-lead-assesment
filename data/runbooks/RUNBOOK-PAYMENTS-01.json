@@ -1,0 +1,9 @@
+{
+  "document_id": "RUNBOOK-PAYMENTS-01",
+  "title": "Payment service rollback",
+  "department": "payments",
+  "document_type": "runbook",
+  "access_level": "internal",
+  "created_date": "2026-02-15",
+  "content": "Rollback procedure: 1) confirm the error-rate or p95 latency threshold breach; 2) freeze further deployment; 3) identify the previous known-good image; 4) shift traffic away from the canary; 5) redeploy the previous image; 6) verify health, payment success rate and database pool utilization; 7) record the rollback in the incident timeline. Never roll back database schema changes without the database migration plan."
+}

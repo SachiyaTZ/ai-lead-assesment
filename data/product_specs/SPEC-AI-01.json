@@ -1,0 +1,9 @@
+{
+  "document_id": "SPEC-AI-01",
+  "title": "Enterprise AI assistant specification",
+  "department": "ai",
+  "document_type": "product_spec",
+  "access_level": "internal",
+  "created_date": "2026-03-02",
+  "content": "The assistant must provide evidence-backed answers, multi-turn memory, visible operational activity and role-aware tool execution."
+}

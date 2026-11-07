@@ -1,0 +1,9 @@
+{
+  "document_id": "INC-2026-007",
+  "title": "Payment TLS errors",
+  "department": "payments",
+  "document_type": "incident",
+  "access_level": "internal",
+  "created_date": "2026-08-20",
+  "content": "Severity: SEV-2\nAffected service: payment-api\nRoot cause: certificate expiry\n\nAn upstream test certificate was promoted with an incorrect expiry bundle causing TLS validation failures.\n\nResolution: Service was stabilized, telemetry reviewed, and a follow-up action was assigned. Preventive actions include alerts, safe rollout controls, and runbook updates."
+}

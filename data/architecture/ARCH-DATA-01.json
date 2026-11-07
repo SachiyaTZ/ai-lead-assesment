@@ -1,0 +1,9 @@
+{
+  "document_id": "ARCH-DATA-01",
+  "title": "Enterprise data platform",
+  "department": "data",
+  "document_type": "architecture",
+  "access_level": "internal",
+  "created_date": "2026-03-01",
+  "content": "Operational events are streamed to the analytics platform. Incident metadata includes severity, service, department, timestamps and root-cause taxonomy."
+}

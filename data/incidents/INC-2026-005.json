@@ -1,0 +1,9 @@
+{
+  "document_id": "INC-2026-005",
+  "title": "Payment callback backlog",
+  "department": "payments",
+  "document_type": "incident",
+  "access_level": "internal",
+  "created_date": "2026-06-12",
+  "content": "Severity: SEV-2\nAffected service: payment-worker\nRoot cause: database saturation\n\nLong-running reconciliation queries saturated database I/O and delayed callbacks.\n\nResolution: Service was stabilized, telemetry reviewed, and a follow-up action was assigned. Preventive actions include alerts, safe rollout controls, and runbook updates."
+}

@@ -1,0 +1,9 @@
+{
+  "document_id": "POL-ACCESS-01",
+  "title": "Information access policy",
+  "department": "security",
+  "document_type": "policy",
+  "access_level": "internal",
+  "created_date": "2026-01-11",
+  "content": "Viewer users can chat and search authorized knowledge. Analysts can use controlled analytics and enterprise tools. Administrators may use all POC tools. Authorization must be deterministic and never delegated to the model."
+}

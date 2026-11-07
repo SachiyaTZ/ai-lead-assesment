@@ -1,0 +1,9 @@
+{
+  "document_id": "ARCH-PAYMENTS-02",
+  "title": "Payment resilience decisions",
+  "department": "payments",
+  "document_type": "architecture",
+  "access_level": "internal",
+  "created_date": "2026-02-01",
+  "content": "The platform uses primary/secondary providers with circuit breakers. Retries are limited to idempotent operations. Provider timeout thresholds and database pool sizing are critical resilience parameters. Deployments use canary rollout with rollback on latency and error-rate thresholds."
+}

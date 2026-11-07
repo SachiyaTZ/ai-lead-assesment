@@ -1,0 +1,9 @@
+{
+  "document_id": "ARCH-SECURITY-01",
+  "title": "AI assistant security architecture",
+  "department": "security",
+  "document_type": "architecture",
+  "access_level": "internal",
+  "created_date": "2026-04-01",
+  "content": "The assistant separates system instructions, user input and retrieved untrusted content. RBAC is enforced in application code before tool execution. Secrets are provided through environment variables and are not logged."
+}

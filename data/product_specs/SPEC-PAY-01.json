@@ -1,0 +1,9 @@
+{
+  "document_id": "SPEC-PAY-01",
+  "title": "Payment API specification",
+  "department": "payments",
+  "document_type": "product_spec",
+  "access_level": "internal",
+  "created_date": "2026-03-01",
+  "content": "The payment API supports authorization, capture, refund and status operations. Idempotency-Key is mandatory for write operations. SLO target is 99.95% monthly availability."
+}

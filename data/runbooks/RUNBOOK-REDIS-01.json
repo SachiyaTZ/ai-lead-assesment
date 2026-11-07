@@ -1,0 +1,9 @@
+{
+  "document_id": "RUNBOOK-REDIS-01",
+  "title": "Redis failover response",
+  "department": "platform",
+  "document_type": "runbook",
+  "access_level": "internal",
+  "created_date": "2026-05-15",
+  "content": "Verify primary/replica role, client reconnect behavior and timeout values. Payment services should degrade to a limited stateless path where safe."
+}

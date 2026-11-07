@@ -1,0 +1,9 @@
+{
+  "document_id": "RUNBOOK-DB-01",
+  "title": "Database saturation response",
+  "department": "platform",
+  "document_type": "runbook",
+  "access_level": "internal",
+  "created_date": "2026-04-15",
+  "content": "Check active connections, pool wait time, slow queries and I/O. Cancel pathological reporting queries only after approval. Scale read capacity or reduce traffic if saturation threatens transaction processing."
+}

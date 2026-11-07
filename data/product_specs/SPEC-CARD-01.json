@@ -1,0 +1,9 @@
+{
+  "document_id": "SPEC-CARD-01",
+  "title": "Card authorization specification",
+  "department": "payments",
+  "document_type": "product_spec",
+  "access_level": "internal",
+  "created_date": "2026-03-03",
+  "content": "Card authorization requests have strict provider timeouts. Retries must respect idempotency and circuit-breaker state."
+}

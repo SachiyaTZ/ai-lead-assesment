@@ -1,0 +1,9 @@
+{
+  "document_id": "INC-2026-004",
+  "title": "Payment deployment regression",
+  "department": "payments",
+  "document_type": "incident",
+  "access_level": "internal",
+  "created_date": "2026-05-07",
+  "content": "Severity: SEV-2\nAffected service: payment-api\nRoot cause: deployment regression\n\nA release reduced database pool size and increased connection wait time, recreating connection pool exhaustion symptoms.\n\nResolution: Service was stabilized, telemetry reviewed, and a follow-up action was assigned. Preventive actions include alerts, safe rollout controls, and runbook updates."
+}
